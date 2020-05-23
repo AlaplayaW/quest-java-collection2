@@ -30,7 +30,7 @@ public class Thanos {
 
             @Override
             public int compare(Hero hero1, Hero hero2) {
-                return (hero2.getAge() - hero1.getAge());
+                return hero2.getAge() - hero1.getAge();
             }
         };
 
